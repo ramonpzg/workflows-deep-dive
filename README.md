@@ -54,3 +54,56 @@ Total time budgeted (including breaks) - 4 hours
    - Introduction to Metaflow and the dataset.
    - Creating, saving, and scheduling flows.
    - Exercise (7-min).
+
+
+## Setup
+
+If you are on a Mac or Linux machine, the set up steps will be the same. If you are in a Windows machine, you can still follow along with the tutorial, but please bare in mind that your experience  will be a much better one if you were to download, install and use (preferrably) Windows Subsystem for Linux or Git Bash for the session.
+
+You should first make sure you have [Anaconda](https://www.anaconda.com/products/individual#download-section) or, preferrably, [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed before following the next steps.
+
+#### First Step
+
+Open up your terminal and navigate to a directory of your choosing in your computer. Once there, run the following command to get the code for the session.
+
+```sh
+ git clone https://github.com/ramonpzg/workflows-deep-dive.git
+
+ # or
+
+ git clone git@github.com:ramonpzg/workflows-deep-dive.git
+```
+
+Conversely, you can click on the green `download` button at the top and donwload all files to your desired folder/directory. Once you download it, unzip it and move on to the second step.
+
+#### Second Step
+
+To get all dependencies, packages and everything else that would be useful in this tutorial, you can recreate the environment by first going into the directory for today.
+
+```sh
+cd workflows-deep-dive
+```
+
+Then you will need to create an environment with all of the dependencies needed for the session by running the following command.
+
+```sh
+conda env create -f environment.yml
+```
+
+#### Third Step
+
+Once that environment has been set up, the next step is to activate it using the following command.
+
+```sh
+conda activate wflow
+```
+
+#### Fourth Step
+
+Open up Jupyter Lab and you should be ready to go.
+
+```sh
+jupyter lab
+```
+
+Great work! Now navigate to `wflow_workshop.ipynb` and open it.
