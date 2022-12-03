@@ -14,6 +14,6 @@ dependencies:
   - ca-certificates
   - certifi
   - openssl
-  - pip
-    - metaflow
-    - dagster
+  - pip:
+      - metaflow
+      - dagster
