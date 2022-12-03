@@ -18,3 +18,4 @@ dependencies:
       - metaflow
       - dagster
       - dagit
+      - pyarrow
